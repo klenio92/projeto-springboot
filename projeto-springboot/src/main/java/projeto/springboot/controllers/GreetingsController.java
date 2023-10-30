@@ -84,7 +84,7 @@ public class GreetingsController {
 
 	}
 
-	@GetMapping(value = "buscarpornome")
+	@GetMapping(value = "buscarPorNome")
 	@ResponseBody
 	public ResponseEntity<List<Usuario>> buscarPorNome(@RequestParam(name = "name") String name) {
 
